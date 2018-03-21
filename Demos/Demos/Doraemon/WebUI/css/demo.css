@@ -1,0 +1,54 @@
+﻿.wrapper {
+margin:0px auto;
+}
+.doraemon {
+position:relative;
+}
+.head{
+    width:320px;height:300px;
+    border-radius:150px;
+    border:2px solid #555;
+    background:radial-gradient(at right top , #fff 10%, #07bbee 20%, #10a6ce 75%, #000) repeat scroll 0 0;
+    box-shadow:-5px 10px 15px 0px rgba(0, 0, 0, 0.45);
+}
+.head .eyes
+{
+position:relative;
+}
+.head .eyes .eye
+{
+position:absolute;
+z-index:10;
+width:72px;
+height:82px;
+border:2px solid #000;
+border-radius:35px;
+top:40px;
+background:#fff;
+}
+.head .eyes .left
+{
+left:82px;
+}
+.head .eyes .right
+{
+left:156px;
+}
+.head .eyes .eye .black
+{
+    width: 14px;
+    height: 14px;
+    background:#000;
+    border-radius: 10px;
+    position: absolute;
+    top: 36px;
+ 
+}
+.head .eyes .eye .eleft
+{
+left:50px;
+}
+.head .eyes .eye .eright
+{
+left:7px;
+}
